@@ -7,14 +7,9 @@ import { TbAsterisk } from "react-icons/tb";
 
 export const SectionNewsletter = () => {
   return (
-    <section className="mt-32  mb-20">
-      <div className="space-y-10 mb-20 ">
-        <h5 className="flex items-center  text-[#654BCE] font-semibold">
-          <span className="text-[20px] mr-2">
-            <TbAsterisk />
-          </span>{" "}
-          30 days free trial
-        </h5>
+    <section>
+      <div className="space-y-10 mb-20">
+        <h5 className="text-purple-700 font-semibold">* 30 days free trial</h5>
         <h1 className="text-6xl md:text-7xl font-bold capitalize">
           The best payments experience
         </h1>
@@ -25,12 +20,12 @@ export const SectionNewsletter = () => {
         <div className="relative">
           <input
             type="text"
-            className="border-2 border-black bg-transparent outline-none p-4 pr-36 w-full pl-6 rounded-full"
+            className="border-2 border-black bg-transparent outline-none p-4 pr-36 w-full rounded-full"
             placeholder="Enter your email"
           />
           <button
             type="button"
-            className="absolute bg-black text-white top-0 right-0 h-full rounded-full px-5"
+            className="absolute bg-black text-white top-0 right-0 h-full rounded-full px-6"
           >
             Get Started
           </button>
@@ -39,18 +34,14 @@ export const SectionNewsletter = () => {
       <div>
         <h5 className="font-bold mb-5">Send money to</h5>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          <CardUser className="bg-black text-white gap-6 pt-8">
-            <span
-              className="relative before:absolute before:w-8 before:h-8 before:bg-white
-              flex items-center justify-center before:rotate-45 before:rounded-lg"
-            >
+          <CardUser className="bg-black text-white gap-5 pt-8">
+            <span className="relative before:absolute before:w-8 before:h-8 before:bg-white flex items-center justify-center before:rotate-45 before:rounded-lg">
               <LuPlus className="text-black relative z-10" />
             </span>
             <h5 className="text-center">Add New Contact</h5>
           </CardUser>
-
           <CardUser>
-            <div className="relative w-16 h-16 rounded-xl">
+            <div className="relative w-12 h-12 rounded-xl">
               <Image
                 src="https://res.cloudinary.com/jotredev/image/upload/v1697575977/ElementumUI/mujeres/cuchando-musica-sosteniendo-telefono_gjwalk.webp"
                 alt="Image"
@@ -61,12 +52,11 @@ export const SectionNewsletter = () => {
               />
             </div>
             <h5 className="text-center">
-              Ashley <br /> Nolan
+              Steve <br /> Donald
             </h5>
           </CardUser>
-
           <CardUser>
-            <div className="relative w-16 h-16 rounded-xl">
+            <div className="relative w-12 h-12 rounded-xl">
               <Image
                 src="https://res.cloudinary.com/jotredev/image/upload/v1697568580/ElementumUI/mujeres/feliz-mujer-madura-al-aire-libre_tsjdsm.webp"
                 alt="Image"
@@ -77,7 +67,7 @@ export const SectionNewsletter = () => {
               />
             </div>
             <h5 className="text-center">
-              Sarah <br /> Donald
+              Leahal <br /> Nolan
             </h5>
           </CardUser>
         </div>

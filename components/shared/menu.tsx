@@ -4,11 +4,11 @@ import { LuChevronDown } from "react-icons/lu";
 
 export const Menu = () => {
   return (
-    <ul className=" flex flex-col lg:flex-row lg:items-center gap-5">
+    <ul className="flex flex-col lg:flex-row lg:items-center gap-5">
       <li>
         <Link
           href="/"
-          className=" border-b-2 border-transparent hover:border-black transition-colors duration-300"
+          className="border-b-2 border-transparent hover:border-black transition-colors duration-300 py-2"
         >
           Pricing
         </Link>
@@ -16,7 +16,7 @@ export const Menu = () => {
       <li>
         <Link
           href="/"
-          className="border-b-2 border-transparent hover:border-black transition-colors duration-300"
+          className="border-b-2 border-transparent hover:border-black transition-colors duration-300 py-2"
         >
           Blog
         </Link>
@@ -24,7 +24,7 @@ export const Menu = () => {
       <li>
         <Link
           href="/"
-          className=" flex items-center gap-3 border-b-2 border-transparent hover:border-black transition-colors duration-300 "
+          className="flex items-center gap-3 border-b-2 border-transparent hover:border-black transition-colors duration-300 py-2"
         >
           Features
           <LuChevronDown />
@@ -33,7 +33,7 @@ export const Menu = () => {
       <li>
         <Link
           href="/"
-          className="border-b-2 border-transparent hover:border-black transition-colors duration-300"
+          className="border-b-2 border-transparent hover:border-black transition-colors duration-300 py-2"
         >
           Contact
         </Link>

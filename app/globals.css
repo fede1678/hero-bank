@@ -1,18 +1,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-/* Oculta el elemento en todas las situaciones excepto en pantalla completa */
-@media (max-width: 1199px) {
-  .hidden-fullscreen {
-    display: none;
-  }
-}
-
-/* Muestra el elemento solo en pantalla completa */
-:-webkit-full-screen .hidden-fullscreen,
-:-moz-full-screen .hidden-fullscreen,
-:-ms-fullscreen .hidden-fullscreen,
-:fullscreen .hidden-fullscreen {
-  display: block;
-}

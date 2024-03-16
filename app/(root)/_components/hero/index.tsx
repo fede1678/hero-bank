@@ -6,16 +6,14 @@ export const Hero = () => {
   return (
     <section
       id="hero"
-      className="container mx-auto flex flex-col md:flex-row items-center justify-between w-full gap-6 md:gap-10"
+      className="container mx-auto grid grid-cols-1 lg:grid-cols-3 w-full gap-10"
     >
       <section className="flex-1">
         <SectionNewsletter />
       </section>
-
-      <section className="flex-1 hidden-fullscreen">
+      <section className="flex-1">
         <SectioniImage />
       </section>
-
       <section className="flex-1">
         <SectionNumbers />
       </section>

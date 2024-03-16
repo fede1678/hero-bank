@@ -6,7 +6,7 @@ import { LuWallet, LuBell } from "react-icons/lu";
 
 export const Header = () => {
   return (
-    <header className="hidden lg:block absolute left-0 top-0 w-full py-5 px-5 md:px-0">
+    <header className="hidden lg:block absolute left-0 top-0 w-full py-5 px-5 md:px-0 bg-gray-200">
       <div className="container mx-auto flex items-center justify-between">
         <section>
           <Logo />
@@ -15,7 +15,7 @@ export const Header = () => {
           <Menu />
         </section>
         <section>
-          <ul className=" flex items-center gap-6">
+          <ul className="flex items-center gap-6">
             <li>
               <button type="button">
                 <LuWallet size={20} />
@@ -24,13 +24,13 @@ export const Header = () => {
             <li>
               <button type="button" className="relative">
                 <LuBell size={20} />
-                <span className="absolute w-3 h-3 text-[7px] rounded-full bg-orange-600 text-white -top-2 -right-1 flex items-center justify-center z-10">
+                <span className="absolute w-4 h-4 text-[8px] rounded-full bg-orange-600 text-white -top-2 -right-1 flex items-center justify-center z-10">
                   2
                 </span>
               </button>
             </li>
             <li>
-              <div className=" relative w-8 h-8 rounded-full">
+              <div className="relative w-8 h-8 rounded-full">
                 <Image
                   src="https://res.cloudinary.com/jotredev/image/upload/v1697568346/ElementumUI/hombres/onrie-ampliamente-esperando-sorpresa_rcgn7i.webp"
                   alt="Image"
